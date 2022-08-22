@@ -47,6 +47,5 @@
 Console.Clear();
 Console.WriteLine("Введите число (N), а на выходе покажет все чётные числа от 1 до N: ");
 int num = Convert.ToInt32(Console.ReadLine());
-for (int x = 2; x <= num; x=x+1) 
-if (x%2==0)       
-   Console.WriteLine(x);
+for (int x = 2; x <= num; x=x+2) 
+  Console.WriteLine(x);
